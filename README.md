@@ -22,9 +22,12 @@ The current api does not secure the services. Spring security along with either 
 along with the relevant infrastructure can be designed and implemented as outlined in future design considerations.
 
 ## Future Design considerations
- 1. *Config server* to store all the configurations.
- 2. *Reverse Proxy* such as Zuul to accommodate for security check layer, any encryption/decryptions for request/response or values from config server etc.   
- 3. *Security* OAuth2 security handling service where microservice can include/exclude the resources that are to be secured.
- 4. *Service discovery* such as Eureka as the microservice achitecture grows.
- 5. Reactive microservices according to the architecture.
+ 1. **Config server** to store all the configurations.
+ 2. **Reverse Proxy** such as Zuul to accommodate for security check layer, any encryption/decryptions for request/response or values from config server etc.   
+ 3. **Security** OAuth2 security handling service where microservice can include/exclude the resources that are to be secured.
+ 4. **Service discovery** such as Eureka as the microservice achitecture grows.
+ 5. **Reactive** microservices according to the architecture.
 
+## Future Tech considerations
+ 1. New Libraries based on the usability
+ 1. Improved code coverage in test cases
